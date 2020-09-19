@@ -3,8 +3,8 @@
 import torch
 from torch import nn
 
-from efficientdet.model import BiFPN, Regressor, Classifier, EfficientNet
-from efficientdet.utils import Anchors
+from yaep.efficientdet.model import BiFPN, Regressor, Classifier, EfficientNet
+from yaep.efficientdet.utils import Anchors
 
 
 class EfficientDetBackbone(nn.Module):
