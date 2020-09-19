@@ -1,6 +1,9 @@
-# Yet Another EfficientDet Pytorch
+# Yet Another EfficientDet Pytorch Library
 
 The pytorch re-implement of the official [EfficientDet](https://github.com/google/automl/tree/master/efficientdet) with SOTA performance in real time, original paper link: <https://arxiv.org/abs/1911.09070>
+
+## Install
+The library can be installed as a python package using pip install -e . from the root directory.
 
 ## Performance
 
