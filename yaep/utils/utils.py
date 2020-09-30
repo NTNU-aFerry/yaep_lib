@@ -303,6 +303,7 @@ def plot_one_box(img, coord, label=None, score=None, color=None, line_thickness=
         cv2.rectangle(img, c1, c2, color, -1)  # filled
         cv2.putText(img, '{}: {:.0%}'.format(label, score), (c1[0], c1[1] - 2), 0, float(tl) / 3, [0, 0, 0],
                     thickness=tf, lineType=cv2.FONT_HERSHEY_SIMPLEX)
+    return img
 
 
 color_list = standard_to_bgr(STANDARD_COLORS)
