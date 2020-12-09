@@ -11,8 +11,8 @@ from ros_af_msgs.msg import ImageDetection, ObjectBoundingBox, ObjectClass
 
 import sensor_msgs.msg as sensor_msg
 
-from .infer_image import obj_list, infer_images, load_model
-from .infer_image import plot_one_box, get_index_label, color_list, set_cuda_device
+from yaep.infer_image import obj_list, infer_images, load_model
+from yaep.infer_image import plot_one_box, get_index_label, color_list, set_cuda_device
 
 def image_msg_to_cv2_image(image_msg, sensor_mode):
     """

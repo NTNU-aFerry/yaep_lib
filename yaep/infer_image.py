@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import time
 import torch
 from torch.backends import cudnn
@@ -7,9 +7,9 @@ from matplotlib import colors
 import cv2
 import numpy as np
 
-from .backbone import EfficientDetBackbone
-from .efficientdet.utils import BBoxTransform, ClipBoxes
-from .utils.utils import preprocess, invert_affine, postprocess, STANDARD_COLORS, standard_to_bgr, get_index_label, plot_one_box, aspectaware_resize_padding
+from yaep.backbone import EfficientDetBackbone
+from yaep.efficientdet.utils import BBoxTransform, ClipBoxes
+from yaep.utils.utils import preprocess, invert_affine, postprocess, STANDARD_COLORS, standard_to_bgr, get_index_label, plot_one_box, aspectaware_resize_padding
 
 force_input_size = None  # set None to use default size
 
